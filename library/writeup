@@ -1,0 +1,41 @@
+----5----1----5----2----5----3----5----4----5----5----5----6----5----7----5----8
+
+
+Most C and C++ books I read while learning to program in these languages taught
+me the skills needed to write programs, but did not cover the skills needed to
+build and manage large applications.  One skill I find myself lacking in is the 
+ability to build the /dynamic library/.  
+
+A dynamic library allows you to break a program up into smaller pieces and load
+only those pieces of code necessary to perform the tasks you're doing.  This 
+saves on memory utilization in the program, freeing the memory for other tasks.
+It can be shown (*can it?*) that decreased memory utilization can lead to 
+improved performance in the execution of code.
+
+There are several different approaches to using libraries.  I will cover all 
+of them, but the primary focus will be on the creation and use of dynamic 
+libraries.
+
+Another important aspect of the use of libraries is their effect on program
+performance.  In a time-sensitive environment, loading libraries may take 
+too long, and mean the difference between program success and program failure.
+Also, performance gains achieved from the reduced memory footprint 
+
+Types of Libraries
+
+Creating Libraries
+
+Using Libraries at Compile Time (Static Binding)
+
+Using Libraries at Run Time (Dynamic Binding)
+
+Compactness of LIbrary Based Applications
+
+Performance Characteristics of Library Based Applications
+ - Loading time performance
+ - Run time performance
+    - Monolithic code
+    - Statically bound code
+    - Dynamically bound code
+
+

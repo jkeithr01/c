@@ -1,0 +1,13 @@
+/* first file */
+
+#include <stdio.h>
+
+void f_in_other_place (void);  /* declaration */
+int i; /* definition */
+main() {
+   i=0;
+   printf("%s%i\n", "The value of i is ", i);
+   f_in_other_place();
+   printf("%s%i\n", "The value of i is ", i);
+}
+/* end of first file */
